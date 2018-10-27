@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>HelloWorldMaven</artifactId>
-  <version>0.0.5-SNAPSHOT</version>
+  <version>0.0.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
@@ -14,13 +14,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-<!--distributionManagement>
+<distributionManagement>
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/ubuntu/Releases/</url>
+         <url>file:///var/lib/jenkins/Releases/</url>
        </repository>
-   </distributionManagement-->
+   </distributionManagement>
 <distributionManagement>
   <repository>
     <id>nexus-releases</id>
